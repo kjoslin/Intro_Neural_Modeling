@@ -102,15 +102,15 @@ end
 AveRate = 1000*NumSpikes/(t_StimEnd - t_CountSpikeStart)
 %gives average firing rate in [#/sec = Hz]
 
-tSpike
-isi_vec = diff(tSpike)
-avgisi = mean(isi_vec)
-CV = std(isi_vec)/mean(isi_vec)
-figure(1)
-hist(isi_vec,8); %Plotting a histogram of isi in 8 equal bins
-title('ISI Distribution for Trial 1');
-xlabel('isi (ms)');
-ylabel('Number of occurrences');
+% tSpike
+% isi_vec = diff(tSpike)
+% avgisi = mean(isi_vec)
+% CV = std(isi_vec)/mean(isi_vec)
+% figure(1)
+% hist(isi_vec,8); %Plotting a histogram of isi in 8 equal bins
+% title('ISI Distribution for Trial 1');
+% xlabel('isi (ms)');
+% ylabel('Number of occurrences');
 
 
 %Plots
